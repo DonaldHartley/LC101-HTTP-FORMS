@@ -18,13 +18,17 @@
     <form id="submissionForm" action="https://rocky-fortress-42375.herokuapp.com/student" method="POST">
       <fieldset>
         <label for="first_name">First Name</label>
-        <input id="first_name">
+        <input id="first_name" name="firstName">
         <label for="last_name">Last Name</label>
-        <input id="last_name">
-        <label for="fave_animal">Favorite Animal</label>
-        <input id="fave_animal">
-        <button id="submit">Submit</button>
+        <input id="last_name" name="lastName">
       </fieldset>
+      <fieldset>
+        <label for="fave_animal">Favorite Animal</label>
+        <input id="fave_animal" name="favoriteAnimal">
+        <label for="fave_food">Favorite Food</label>
+        <input id="fave_food" name="favoriteFood">
+      </fieldset>
+      <button id="submit">Submit</button>
     </form>
   </section>
 </body>
